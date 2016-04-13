@@ -1,0 +1,78 @@
+*{margin: 0;padding:0;}
+p{font-size: 1.2em;}
+h1{font-size: 1.8em;}
+body{background: #ebebeb;}
+ul li{list-style: none;}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+.bgwhite{background: #fff; border-radius: 3px; padding: 15px 15px; margin-bottom:15px; }
+.posttuvan img{float:left;}
+
+/* header */
+.header{background: #ffcc33; border-top:6px solid black; padding:10px 0px;}
+.titleelement{ font-weight: bold; }
+#myNavbar a{color: #242424; font-weight: bolder; font-size: 1.2em;}
+.navbar-header a{color: #242424; font-weight: bold; font-size: 2em !important}
+
+/*index element*/
+.noithat{background: #242424;}
+.innernoithat{ margin:20px 0px; border-bottom: 1px solid #4b4b4b; padding-bottom: 10px; }
+.innernoithat h4 a{ font-size: 1.6em; color:#ffcc33;}
+.innernoithat img{ width: 330px; height: 200px; border: 3px solid black}
+.innernoithat p{ color:#fff; margin: 20px 0px;}
+.more{background: #ffcc33; padding:5px 10px; color: #242424; }
+
+.tuvan{background: #fff; padding:20px 0px;}
+.innertuvan{ margin: 25px 0px;  }
+.innertuvan a{ font-size: 1.5em; color: black; }
+.innertuvan img{ width:250px; height:250px; margin-bottom: 20px; }
+
+
+.mau3d{background: #F7DB4D; padding:20px 0px;}
+.mau3d .row{ margin: 30px 0px; }
+.mau3d figcaption{ margin: 10px 0px; }
+.mau3d a{color: #242424; font-size: 1.5em;}
+.innermau3d img{width: 90%; height: 250px;}
+
+.contrinh{padding:20px 0px;}
+.innercongtrinh img{ width: 150px; height: 150px; margin-bottom:10px; }
+
+.nhanxet{padding:20px 0px;}
+.innernhanxet img{ width: 150px; height: 150px; }
+
+
+.videos{padding:20px 0px;}
+
+/* intro project*/
+.bgintro img{width: 100%; max-height: 600px;}
+
+
+.intronoithat{background: #242424; padding:60px 0px;}
+.intronoithat img{width: 100%; border: 4px solid black;}
+.intronoithat h2{ color: #ffcc33; }
+.intronoithat{color:white;}
+
+/* content */
+
+.main{ margin-top:20px;}
+blockquote{font-family:  monospace;}
+.gallery a img{ margin: 20px 0px; }
+.videospage{width: 90%;}
+.videospage iframe { padding: 10px; }
+/* aside */
+.innerrandom{ border-bottom: 1px dashed gray; padding-bottom:10px; }
+.innerrandom img{ margin-right: 5px; width: 80px; height: 60px; }
+.innerrandom h5{ padding-top:10px;  }
+
+/* footer */
+footer{background-color: #34495e;  margin-top:10px;}
+footer h4{ color: yellow; }
+footer p { color: white; }
+footer a{color: white;}
+footer .col-md-4{margin: 10px 0px;}
+footer .col-md-12{background: #2c3e50}
+footer .col-md-12 p{ color: #ffcc33; margin: 10px 0px; }
+
+
+
+

@@ -1,0 +1,38 @@
+<?php
+
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class Baivietlinhvuc extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('baivietlinhvuc', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('malinhvuc',10);
+            $table->foreign('malinhvuc')->references('malinhvuc')->on('linhvuc')->onUpdate('cascade')->onDelete('cascade');
+            $table->string('name',100);
+            $table->string('mota');
+            $table->string('image',100);
+            $table->text('noidung');
+            $table->timestamps();
+        });
+
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::drop('baivietlinhvuc');
+        
+    }
+}
